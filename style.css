@@ -1,0 +1,123 @@
+* body {
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(./imagenes/FONDO.gif);
+    background-size: 50%;
+  }
+  
+  /*PORTADA*/
+  
+ 
+ 
+
+  
+  
+  
+  img {
+    width: 100%;
+    margin-right: 50px;
+    box-shadow: 0px 3px 5px rgba(rgb(255, 255, 255), rgb(38, 39, 38), brgb(65, 65, 66) alpha);
+  }
+  
+  /*CUENTA REGRESIVA*/
+   
+  
+  @media (max-width: 730px) {
+    .cuenta-regresiva {
+      display: flex;
+      text-align: center;
+      justify-content: center;
+      gap: 1em;
+      padding: 0.8em;
+      margin-top: 20%;
+      
+      
+  }
+  .cr-time > span {
+    float: left;
+    height: 40px;
+    width: 40px;
+    font-size: 19px;
+    font-weight: bold;
+      border-radius: 1px;
+      color: #3c8b62;
+      text-shadow: 0 0 5px rgb(247, 229, 229), 0 0 15px rgb(217, 248, 254), 0 0 30px rgb(250, 244, 244), 0 0 50px rgb(254, 254, 254);
+      
+  }
+  .cr-desc {
+      color: #3c8b62;
+      font-family: 'Julius Sans One', sans-serif;
+      font-size: 12px;
+      font-weight: 700;
+line-height: 1,5;
+      
+  }
+  .cr-block {
+      background: #f0efefb3;
+      border-radius: 5px;
+      padding: 0.1em 0.5em;
+      background-size: 80%;
+  }
+    
+  
+    .fondo{
+      width: 100%;
+      margin-top: 10%;
+    }
+    
+
+  
+  
+  .arrow {
+    margin-top: 5%;
+    display: block;
+    width: 16px;
+    height: 16px;
+    border-bottom: 5px solid rgb(102, 125, 96);
+    border-right: 5px solid rgb(102, 125, 96);
+    transform: rotate(45deg);
+  margin-left: 48%;
+    animation: animate28797 2s infinite;
+  }
+  
+  .arrow span:nth-child(2) {
+    animation-delay: -0.2s;
+  }
+  
+  .arrow span:nth-child(3) {
+    animation-delay: -0.4s;
+  }
+  
+  @keyframes animate28797 {
+    0% {
+      opacity: 0;
+      transform: rotate(45deg) translate(-20px, -20px);
+    }
+  
+    50% {
+      opacity: 1;
+    }
+  
+    100% {
+      opacity: 0;
+      transform: rotate(45deg) translate(20px, 20px);
+    }
+  }
+
+
+  .hojas{
+    width: 20%;
+    margin-left: 40%;
+   transform: rotate(-40deg);
+   margin-top: 10%;
+  }
+
+ .titulo1{
+  color: black;
+  font-size: 28px;
+  text-align: center;
+  font-family: "Allura", cursive;
+  font-weight: 400;
+  font-style: normal;
+ }
+}
