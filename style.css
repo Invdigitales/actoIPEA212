@@ -1,8 +1,8 @@
 * body {
     padding: 0;
     box-sizing: border-box;
-    background-image: url(./imagenes/FONDO.gif);
-    background-size: 50%;
+    background-image: url(./imagenes/FONDO.jpg);
+    background-size: 100%;
   }
   
   /*PORTADA*/
@@ -62,7 +62,7 @@ line-height: 1,5;
   
     .fondo{
       width: 100%;
-      margin-top: 10%;
+      margin-top: 5%;
     }
     
 
@@ -109,7 +109,7 @@ line-height: 1,5;
     width: 20%;
     margin-left: 40%;
    transform: rotate(-40deg);
-   margin-top: 10%;
+   margin-top: -5%;
   }
 
  .titulo1{
@@ -119,6 +119,16 @@ line-height: 1,5;
   font-family: "Allura", cursive;
   font-weight: 400;
   font-style: normal;
+  margin-top: 10%;
+  letter-spacing: 3%;
+  
+ }
+ .caja{
+  margin-top: 5%;
+  background-color:  rgba(239, 245, 240, 0.788);
+  padding: .10rem;
+  
+ 
  }
  .titulo2{
   color: #667d60;
@@ -127,10 +137,11 @@ line-height: 1,5;
   font-family: "Lato", sans-serif;
   font-weight: 600;
   font-style: normal;
-  margin-top: -280%;
+  margin-top: 15%;
+
  }
  .egresados{
-  margin-top: 3%;
+  margin-top: 5%;
   color: black;
   font-size: 27px;
   text-align: center;
@@ -154,6 +165,12 @@ line-height: 1,5;
   margin-top: -17%;
   
  }
+ .carousel-inner img{
+  width: 90%;
+  margin-left: 5%;
+  margin-top: 5%;
+}
 
+ 
 
 }
