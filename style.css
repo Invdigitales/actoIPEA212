@@ -120,4 +120,40 @@ line-height: 1,5;
   font-weight: 400;
   font-style: normal;
  }
+ .titulo2{
+  color: #667d60;
+  font-size: 21px;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  margin-top: -280%;
+ }
+ .egresados{
+  margin-top: 3%;
+  color: black;
+  font-size: 27px;
+  text-align: center;
+  font-family: "Allura", cursive;
+  font-weight: 400;
+  font-style: normal;
+ }
+ .titulo3{
+  color: #667d60;
+  font-size: 21px;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  margin-top: -8%;
+ 
+ }
+ .linea{
+  width: 80%;
+  margin-left: 10%;
+  margin-top: -17%;
+  
+ }
+
+
 }
