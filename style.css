@@ -171,6 +171,52 @@ line-height: 1,5;
   margin-top: 5%;
 }
 
+.titulo4{
+  color: #667d60;
+  font-size: 20px;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  margin-top: 1%;
  
-
+ }
+ .parrafoicono{
+  color: #626362;
+  font-size: 15px;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  margin-top: 3%;
+ 
+ }
+ .whasap{
+  width: 20%;
+  margin-left: 38%;
+  margin-top:2%;
+  
+ }
+ .ale{
+  width: 20%;
+  margin-top:-25%;
+  margin-left: 15%;
+ }
+ .audio{
+  width: 40%;
+  height: 20px;
+  margin-left: 30%;
+  margin-top: -40%;
+  background: rgb(255, 255, 255);
+  color: #ffffff;
+  
 }
+.play{
+color: #525252;
+font-family: 'Julius Sans One', sans-serif; ;
+font-size: 13px;
+text-align: center;
+font-weight: 600;
+margin-top: 3%;
+}
+ }
